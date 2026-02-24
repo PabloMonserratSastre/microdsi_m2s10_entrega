@@ -513,7 +513,7 @@ function exportLabToMarkdown(){
   ].join("\n");
 
   out.value = md;
-}}
+}
 
 function downloadText(filename, text){
   const blob = new Blob([text], {type:"text/plain;charset=utf-8"});
